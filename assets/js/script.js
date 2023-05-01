@@ -1,8 +1,7 @@
-// Wait for the DOM to finish loading before running the game
-// Get the button elements and add event listeners to them
+
 
 window.onload = () => {
-    //add event listener to prevent the default behavior
+   
     const mouseOnlyNumberInputField = document.getElementById("answer-box");
     const mouseOnlyNumber = document.getElementById("txt");
     mouseOnlyNumberInputField.addEventListener("keypress", (event) => {
