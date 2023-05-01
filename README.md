@@ -1,6 +1,6 @@
 # Match Colors 
 
-Match Colors is a site that hopes to demonstrate how pure JavaScrpt works in a real-world context. the site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also color matching. Match Colors is a fully responsive JavaScript color game that will allow users to learn the different colors and match them with the available color option.
+Match Colors is a site that hopes to demonstrate how pure JavaScript works in a real-world context. the site will be targeted toward people who not only love to implement more advanced JavaScript concepts but also color matching. Match Colors is a fully responsive JavaScript color game that will allow users to learn the different colors and match them with the available color option.
 
 <img src ="assets/images/5.JPG">
 
@@ -68,10 +68,10 @@ Match Colors is a site that hopes to demonstrate how pure JavaScrpt works in a r
 
     ## Deployment 
 
-     *  The site was deployed to GitHub pages. The steps to deploy are as follows:
+    * The site was deployed to GitHub pages. The steps to deploy are as follows:
     *  In the GitHub repository, navigate to the Setting tab
     *  From the source section drop-down menu, select the Master Branch
-     *  Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+    *  Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
   
     The live link can be found here - add the link of the page <https://melhefnawi.github.io/Match-Color/>
     
@@ -79,13 +79,14 @@ Match Colors is a site that hopes to demonstrate how pure JavaScrpt works in a r
     
     ## Content 
 
-    * The text for the Home page was taken from the Wikipedia Artical A
-    * The instruction on how to implement validation on the Signup page was taken from a Specific You tube Tutorial.
-    * The icons in the footer were taken from Font Awesome.
-    * 
+    * The text for the Home page was taken from the README examples in the love Math profile
+    * The main body stucture in the HTML was taken from love Math project
+    * The main css styling in the css was taken from love Math project.
+    * Some functions in javascript is from W3 School.
+
   ## Media
 
-    * The photos used on the home and sign-up page from this Open Source site
-    * The images used for the gallery page were taken from this other open-source site 
+    * The photos used on the home as logo for game is from Love Math project
+    
     
    
