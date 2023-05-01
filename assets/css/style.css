@@ -1,0 +1,473 @@
+/* --------- Global style */
+
+body {
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    color: #445361;
+    text-align: center;
+}
+
+/* --------- Heading */
+
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.logo {
+    height: 40px;
+    padding-right: 5px;
+}
+
+.numstyle {
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+
+/* removing the Arrows */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* --------- Game layout */
+
+.game-area {
+    background-color: #E6ECF0;
+    box-sizing: border-box;
+    width: 85%;
+    height: 100vh;
+    max-height: 620px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+.question-area {
+    width: 100%;
+    font-size: 2rem;
+    margin: auto;
+    padding: 30px 3px 54px 0px;
+}
+
+.question-area span {
+    padding: 0 15px;
+}
+
+.score-area {
+    margin: 5px auto;
+    width: 60%;
+    height: 40%;
+    font-size: 1.2rem;
+}
+
+.controls-area {
+    width: 85%;
+    margin: 30px auto;
+}
+
+#score {
+    color: green;
+    font-weight: bold;
+}
+
+#incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+.answer-message {
+    display: inline;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: black;
+
+}
+
+#answer-box {
+    border-style: solid;
+    color: #445361;
+    display: inline-block;
+    height: 60px;
+    width: 90px;
+    font-size: 1.2rem;
+    cursor: none;
+    border-radius: 20px;
+}
+
+.scores {
+    display: inline-block;
+    padding: 25px;
+}
+
+/* --------- Buttons */
+
+.btn {
+    width: 220px;
+    height: 60px;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: white;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn--big {
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid;
+    width: 50px;
+    height: 50px;
+    font-size: 3.2rem;
+    margin: 0 30px;
+    transition: all 0.5s;
+}
+
+.btn--aqua {
+    border-color: aqua;
+    color: aqua;
+}
+
+.btn--aqua:active,
+.btn--aqua:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.btn--beige {
+    border-color: beige;
+    color: beige;
+}
+
+.btn--beige:active,
+.btn--beige:hover {
+    background-color: beige;
+    color: white;
+}
+
+.btn--black {
+    border-color: black;
+    color: black;
+}
+
+.btn--black:active,
+.btn--black:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn--blue {
+    border-color: blue;
+    color: blue;
+}
+
+.btn--blue:active,
+.btn--blue:hover {
+    background-color: blue;
+    color: white;
+}
+
+.btn--gold {
+    border-color: gold;
+    color: gold;
+}
+
+.btn--gold:active,
+.btn--gold:hover {
+    background-color: gold;
+    color: white;
+}
+
+.btn--indigo {
+    border-color: indigo;
+    color: indigo;
+}
+
+.btn--indigo:active,
+.btn--indigo:hover {
+    background-color: indigo;
+    color: white;
+}
+
+.btn--magenta {
+    border-color: Magenta;
+    color: Magenta;
+}
+
+.btn--magenta:active,
+.btn--magenta:hover {
+    background-color: Magenta;
+    color: white;
+}
+
+.btn--maroon {
+    border-color: maroon;
+    color: maroon;
+}
+
+.btn--maroon:active,
+.btn--maroon:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.btn--moccasin {
+    border-color: moccasin;
+    color: moccasin;
+}
+
+.btn--moccasin:active,
+.btn--moccasin:hover {
+    background-color: moccasin;
+    color: white;
+}
+
+.btn--navy {
+    border-color: navy;
+    color: navy;
+}
+
+.btn--navy:active,
+.btn--navy:hover {
+    background-color: navy;
+    color: white;
+}
+
+.btn--olive {
+    border-color: olive;
+    color: olive;
+}
+
+.btn--olive:active,
+.btn--olive:hover {
+    background-color: olive;
+    color: white;
+}
+
+.btn--orange {
+    border-color: orange;
+    color: orange;
+}
+
+.btn--orange:active,
+.btn--orange:hover {
+    background-color: orange;
+    color: white;
+}
+
+.btn--peachpuff {
+    border-color: peachpuff;
+    color: peachpuff;
+}
+
+.btn--peachpuff:active,
+.btn--peachpuff:hover {
+    background-color: peachpuff;
+    color: white;
+}
+
+.btn--pink {
+    border-color: pink;
+    color: pink;
+}
+
+.btn--pink:active,
+.btn--pink:hover {
+    background-color: pink;
+    color: white;
+}
+
+.btn--purple {
+    border-color: purple;
+    color: purple;
+}
+
+.btn--purple:active,
+.btn--purple:hover {
+    background-color: purple;
+    color: white;
+}
+
+.btn--red {
+    border-color: red;
+    color: red;
+}
+
+.btn--red:active,
+.btn--red:hover {
+    background-color: red;
+    color: white;
+}
+
+.btn--gray {
+    border-color: gray;
+    color: gray;
+}
+
+.btn--gray:active,
+.btn--gray:hover {
+    background-color: gray;
+    color: white;
+}
+
+.btn--violet {
+    border-color: violet;
+    color: violet;
+}
+
+.btn--violet:active,
+.btn--violet:hover {
+    background-color: violet;
+    color: white;
+}
+
+.btn--yellow {
+    border-color: yellow;
+    color: yellow;
+}
+
+.btn--yellow:active,
+.btn--yellow:hover {
+    background-color: yellow;
+    color: white;
+}
+
+.btn--salmon {
+    border-color: salmon;
+    color: salmon;
+}
+
+.btn--salmon:active,
+.btn--salmon:hover {
+    background-color: salmon;
+    color: white;
+}
+
+.btn--turquoise {
+    border-color: turquoise;
+    color: turquoise;
+}
+
+.btn--turquoise:active,
+.btn--turquoise:hover {
+    background-color: turquoise;
+    color: white;
+}
+
+/* --------- Media queries */
+
+@media (max-width: 414px) {
+    .controls-area {
+        width: 100%;
+
+    }
+
+    .btn--big {
+        margin: 0 10px;
+        padding: 5px;
+        border: 5px solid;
+        width: 25px;
+        height: 25px;
+        font-size: 1.5rem;
+    }
+
+    .btn--big::after {
+        font-size: 0.6rem;
+        left: -0.7rem;
+    }
+
+    .question-area {
+        padding: 10% 0;
+        width: 100%;
+    }
+
+    .question-area span {
+        padding: 0;
+    }
+
+    .answer-message {
+        display: block;
+    }
+
+    #answer-box {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .btn--gray {
+        margin-top: 0;
+        width: 120px;
+        border-radius: 20px;
+    }
+
+    .score-area {
+        width: 100%;
+        height: 400px;
+        padding-top: 92px;
+    }
+
+    .scores {
+        margin: 0.5em auto;
+        display: block;
+        padding: 5px;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+
+    .numstyle {
+
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .game-area {
+        height: 90vh;
+    }
+
+    .controls-area {
+        width: 75%;
+        margin: 10px auto;
+    }
+
+    .btn--big {
+        margin: 10px 10px;
+    }
+
+    .question-area {
+        padding: 10px 0;
+    }
+
+}
+
+@media (max-width: 820px) {
+
+    .btn--big {
+        margin: 0 10px;
+        padding: 5px;
+        border: 5px solid;
+        width: 30px;
+        height: 30px;
+        font-size: 1.5rem;
+    }
+
+}
