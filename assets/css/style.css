@@ -46,7 +46,7 @@ input::-webkit-inner-spin-button {
     box-sizing: border-box;
     width: 85%;
     height: 100vh;
-    max-height: 620px;
+    max-height: 540px;
     max-width: 830px;
     margin-left: auto;
     margin-right: auto;
